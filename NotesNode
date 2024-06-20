@@ -1,0 +1,55 @@
+npm init --> intialize as a node project 
+
+
+package name : nodeproject
+version(1.0.0)      --> enter for choosing default
+descripion : It is an amazing project
+entry point: (index.js)     --> file name
+test command:
+git repository:
+keywords:
+author:aditya
+liscense(ISC) : 
+
+Is this ok ?(yes) yes
+
+
+// saved in package.json
+
+
+// install packages
+general: npm i (package_name)
+
+example:    npm i express --save
+'--save'      --> not required
+
+'node_modules' ---> it contains all the packages installed
+package-lock.json       --> contains the details about all sub-dependencies
+update: package.json ---> dependencies updated
+
+
+
+use: npm i  ---> to redownload the 'node_modules' folder with package.json and package-lock.json
+
+
+// install globally
+npm i -g nodemon                ---> refreshes the http
+
+// install only for development
+npm install --save-dev nodemon
+
+
+// uninstall packages
+
+npm unistall express
+
+
+// run a file
+
+node  file_name
+
+// import any file
+require()
+
+// export the file_element
+module.exports
